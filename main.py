@@ -9,6 +9,7 @@ item_conversion = {
 def play():
 	
 	#user input
+	#first CPU choice is random and the rest are decided by the previous win/lose condition
 	cpu = random.choice(['r', 'p', 's'])
 	cpu_old = 'None'
 	user_win_counter = 0
