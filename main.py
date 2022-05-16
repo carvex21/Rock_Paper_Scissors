@@ -42,9 +42,7 @@ def play():
 					cpu = 'r'
 			else:
 				cpu = random.choice(['r', 'p', 's'])
-	
-		#print(cpu, cpu_old)
-		
+
 		
 
 		#testing the game result
